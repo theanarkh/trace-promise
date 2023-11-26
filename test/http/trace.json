@@ -1,0 +1,33 @@
+{
+    "child": {
+        "1": {
+            "id": 1,
+            "file": "/Users/chenyuebiao/code/trace-promise/test/http/index.js",
+            "line": 8,
+            "child": {},
+            "start": 1701016457660,
+            "end": 1701016462673,
+            "cost": 5013
+        },
+        "2": {
+            "id": 2,
+            "file": "/Users/chenyuebiao/code/trace-promise/test/http/index.js",
+            "line": 9,
+            "child": {
+                "3": {
+                    "id": 3,
+                    "pid": 2,
+                    "file": "/Users/chenyuebiao/code/trace-promise/test/http/index.js",
+                    "line": 9,
+                    "child": {},
+                    "start": 1701016457661,
+                    "end": 1701016462673,
+                    "cost": 5012
+                }
+            },
+            "start": 1701016457660,
+            "end": 1701016462667,
+            "cost": 5007
+        }
+    }
+}
